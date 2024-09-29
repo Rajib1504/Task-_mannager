@@ -12,5 +12,4 @@ document.getElementById("colorPalet").addEventListener("click", (event) => {
   event.target.classList.add("border-red-500", "border-2");
   const newColor = event.target.attributes.value.value;
   color = newColor;
-  console.log(color);
 });
